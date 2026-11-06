@@ -2,7 +2,6 @@
 //! SigmaOS-alpine - Multimedia/Office/Networking component
 //! Part of SigmaOS multi-repository architecture
 
-#![no_std]
 
 /// Component
 pub struct Component {
@@ -29,3 +28,10 @@ mod tests {
         assert_eq!(c.name, "SigmaOS-alpine");
     }
 }
+
+pub mod config;
+pub mod error;
+pub mod service;
+
+pub use config::Config;
+pub use error::{Error, Result};
