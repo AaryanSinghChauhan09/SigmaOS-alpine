@@ -2,6 +2,8 @@
 name = "sigmaos_alpine"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "SigmaOS alpine component inspired by Linux Mint / Omarchy / Arch Linux."
 
 [lib]
 name = "sigmaos_alpine"
